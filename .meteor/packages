@@ -17,7 +17,7 @@ fastclick
 meteorhacks:fast-render
 momentjs:moment
 matb33:collection-hooks
-fourseven:scss
 cfs:gridfs
 cfs:standard-packages
 accounts-base
+stevezhu:sass
