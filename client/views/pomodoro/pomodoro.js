@@ -22,11 +22,11 @@ Template.pomodoro.events({
     time = time * 1000;
     this.spendTime(time);
 
-    window.location.href = '/';
+    window.location.href = '/tasks';
   },
 
   'click .cancel': function(e) {
-    window.location.href = '/';
+    window.location.href = '/tasks';
   },
 
   'click .play-pause': function(e) {
@@ -48,4 +48,3 @@ Template.pomodoro.events({
   //   window.location.href = '/';
   // }
 });
-
