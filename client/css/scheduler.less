@@ -1,16 +1,16 @@
 
-@import 'variables';
-@import 'nav';
+@import 'variables.import.less';
+@import 'nav.import.less';
 
 /* Helpers */
 .smaller {
   font-weight: normal;
   line-height: 1;
-  color: $color-grey;
+  color: @color-grey;
   font-size: 45%;
 
   a {
-    color: $color-link;
+    color: @color-link;
   }
 }
 
@@ -19,7 +19,7 @@
 }
 
 .de-emphasized {
-  color: $color-grey;
+  color: @color-grey;
   font-style: italic;
 }
 
@@ -30,7 +30,7 @@
 
 /*DayLists*/
 .day-title {
-  color: $color-primary-dark-20;
+  color: @color-primary-dark-20;
 }
 
 /*Task Items*/
@@ -54,13 +54,13 @@
         font-weight: 500;
     }
     span.lowImportance {
-        color: $lowImportance;
+        color: @lowImportance;
     }
     span.mediumImportance {
-        color: $medImportance;
+        color: @medImportance;
     }
     span.highImportance {
-        color: $highImportance;
+        color: @highImportance;
     }
 }
 
@@ -77,13 +77,13 @@ div.btn-group-justified label {
     font-weight: 500;
 
     &:nth-child(1) {
-        color: $lowImportance;
+        color: @lowImportance;
     }
     &:nth-child(2) {
-        color: $medImportance;
+        color: @medImportance;
     }
     &:nth-child(3) {
-        color: $highImportance;
+        color: @highImportance;
     }
 }
 
