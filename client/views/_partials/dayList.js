@@ -36,6 +36,10 @@ Template.dayList.events({
     setTimeout(render.bind(this, $parent), 300);
   },
 
+  'click .cancel': function(e) {
+    Session.set('editing#' + this._id, false);
+  },
+
   'click .submit': function(e) {
     $parent = $(e.target).parents('.day-tasks-container');
     confirm.call(this, $parent);
