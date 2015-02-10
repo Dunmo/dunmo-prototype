@@ -5,8 +5,8 @@
   }
 }
 
-.task-row.overdue {
-	color: red !important;
+.task-row.overdue .colorable {
+	color: @color-overdue !important;
 }
 
 div.edit-complete button {
