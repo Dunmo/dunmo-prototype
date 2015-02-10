@@ -1,12 +1,14 @@
 
+@color-overdue: red;
+
 .task-row {
   .dialdiv:hover, input:hover {
     cursor: pointer;
   }
 }
 
-.task-row.overdue {
-	color: red !important;
+.task-row.overdue .colorable {
+	color: @color-overdue;
 }
 
 div.edit-complete button {
