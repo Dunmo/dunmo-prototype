@@ -41,6 +41,7 @@ body {
 	margin-right: auto;
 	display: block;
 	clear: both;
+	text-align: center;
 }
 .centered {text-align: center}
 .mt {margin-top: 50px;}
